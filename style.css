@@ -76,6 +76,10 @@ footer{
         flex-direction: column;
         justify-content: flex-start;
     }
+    
+    .connect{
+        width: 60%;
+    }
 }
 
 @media (max-width: 452px) {
