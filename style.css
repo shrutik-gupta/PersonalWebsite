@@ -74,6 +74,7 @@ footer{
 
 @media (max-width: 768px) {
     .hero-section{
+        text-align: center;
         font-size: 4rem;
         flex-direction: column;
         justify-content: flex-start;
