@@ -47,11 +47,11 @@ body{
     align-items: center;
 }
 
-.playful{
-    /* color: blanchedalmond; */
-    animation: colorAnimate 1s ease-in 0s infinite normal;
+.hero-text{
+    padding-left: 12px;
 }
-.profession{
+
+.animation{
     animation: colorAnimate 1s ease-in 0s infinite normal;
 }
 
@@ -59,7 +59,7 @@ body{
     font-size: 1.5rem;
 }
 
-footer{
+.project{
     font-size: 1.8rem;
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@ footer{
     to{color: burlywood;}
 }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {      /*tablet screen */
     .hero-section{
         text-align: center;
         font-size: 4rem;
@@ -89,7 +89,7 @@ footer{
     }
 }
 
-@media (max-width: 452px) {
+@media (max-width: 452px) {     /*mobile screen */
     .hero-section{
         text-align: center;
         font-size: 3rem;
